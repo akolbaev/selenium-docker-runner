@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test-search-module" duration-ms="10696" started-at="2019-11-04T22:03:17 GMT" finished-at="2019-11-04T22:03:27 GMT">
+    <groups>
+    </groups>
+    <test name="search-test-qa" duration-ms="7522" started-at="2019-11-04T22:03:17 GMT" finished-at="2019-11-04T22:03:24 GMT">
+      <class name="com.searchModule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchModule.tests.SearchTest@6d78f375]" name="setupDriver" is-config="true" duration-ms="3069" started-at="2019-11-04T22:03:17 GMT" finished-at="2019-11-04T22:03:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53b32d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchModule.tests.SearchTest@6d78f375]" name="search" duration-ms="4370" started-at="2019-11-04T22:03:20 GMT" finished-at="2019-11-04T22:03:24 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.searchModule.tests.SearchTest@6d78f375]" name="closeDriver" is-config="true" duration-ms="64" started-at="2019-11-04T22:03:24 GMT" finished-at="2019-11-04T22:03:24 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.searchModule.tests.SearchTest -->
+    </test> <!-- search-test-qa -->
+    <test name="search-test-python" duration-ms="10696" started-at="2019-11-04T22:03:17 GMT" finished-at="2019-11-04T22:03:27 GMT">
+      <class name="com.searchModule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchModule.tests.SearchTest@4439f31e]" name="setupDriver" is-config="true" duration-ms="7662" started-at="2019-11-04T22:03:17 GMT" finished-at="2019-11-04T22:03:24 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@343f4d3d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchModule.tests.SearchTest@4439f31e]" name="search" duration-ms="2970" started-at="2019-11-04T22:03:24 GMT" finished-at="2019-11-04T22:03:27 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.searchModule.tests.SearchTest@4439f31e]" name="closeDriver" is-config="true" duration-ms="64" started-at="2019-11-04T22:03:27 GMT" finished-at="2019-11-04T22:03:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.searchModule.tests.SearchTest -->
+    </test> <!-- search-test-python -->
+  </suite> <!-- test-search-module -->
+</testng-results>
