@@ -24,7 +24,7 @@ services:
       - BROWSER=chrome
       - MODULE=test-search-module.xml
     volumes:
-      - ./search-result:/Users/aza.kolbaev/udemy/test-output
+      - ./output/search-result:/Users/aza.kolbaev/udemy/test-output
   book-flight-module:
     image: azapiture/selenium-docker
     depends_on:
@@ -35,4 +35,4 @@ services:
       - BROWSER=chrome
       - MODULE=test-book-flight-module.xml
     volumes:
-      - ./book-result:/Users/aza.kolbaev/udemy/test-output
+      - ./output/book-result:/Users/aza.kolbaev/udemy/test-output
